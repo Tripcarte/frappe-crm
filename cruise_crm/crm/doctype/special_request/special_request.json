@@ -1,0 +1,36 @@
+{
+    "actions": [],
+    "allow_rename": 1,
+    "creation": "2025-05-08 15:49:50.216069",
+    "doctype": "DocType",
+    "editable_grid": 1,
+    "engine": "InnoDB",
+    "field_order": [
+     "message"
+    ],
+    "fields": [
+     {
+      "fieldname": "message",
+      "fieldtype": "Data",
+      "in_list_view": 1,
+      "label": "Message",
+      "reqd": 1
+     }
+    ],
+    "grid_page_length": 50,
+    "index_web_pages_for_search": 1,
+    "istable": 1,
+    "links": [],
+    "modified": "2025-05-08 15:50:21.677275",
+    "modified_by": "Administrator",
+    "module": "CRM",
+    "name": "Special Request",
+    "owner": "Administrator",
+    "permissions": [],
+    "row_format": "Dynamic",
+    "sort_field": "creation",
+    "sort_order": "DESC",
+    "states": [],
+    "custom": 1
+   }
+   

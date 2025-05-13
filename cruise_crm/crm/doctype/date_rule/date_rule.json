@@ -1,0 +1,60 @@
+{
+    "doctype": "DocType",
+    "name": "Date Rule",
+    "module": "CRM",
+    "custom": 1,
+    "istable": 1,
+    "is_submittable": 0,
+    "track_changes": 1,
+    "track_views": 1,
+    "fields": [
+      {
+        "fieldname": "type",
+        "fieldtype": "Select",
+        "label": "Type",
+        "options": "Date\nDate Range\nWeekday",
+        "reqd": 1,
+        "in_list_view": 1
+      },
+      {
+        "fieldname": "date_value",
+        "fieldtype": "Date",
+        "label": "Date",
+        "depends_on": "eval:doc.type == 'Date'",
+        "in_list_view": 1
+      },
+      {
+        "fieldname": "from_date",
+        "fieldtype": "Date",
+        "label": "From Date",
+        "depends_on": "eval:doc.type == 'Date Range'",
+        "in_list_view": 1
+      },
+      {
+        "fieldname": "to_date",
+        "fieldtype": "Date",
+        "label": "To Date",
+        "depends_on": "eval:doc.type == 'Date Range'",
+        "in_list_view": 1
+      },
+      {
+        "fieldname": "weekday",
+        "fieldtype": "Select",
+        "label": "Weekday",
+        "options": "\nMonday\nTuesday\nWednesday\nThursday\nFriday\nSaturday\nSunday",
+        "depends_on": "eval:doc.type == 'Weekday'",
+        "in_list_view": 1
+      },
+      {
+        "fieldname": "rule",
+        "fieldtype": "Select",
+        "label": "Rule",
+        "options": "Include\nExclude",
+        "reqd": 1,
+        "in_list_view": 1
+      }
+    ],
+    "permissions": [
+      
+    ]
+  }

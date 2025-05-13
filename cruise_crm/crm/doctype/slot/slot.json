@@ -1,0 +1,81 @@
+{
+    "actions": [],
+    "allow_rename": 1,
+    "creation": "2025-05-08 15:20:23.981822",
+    "doctype": "DocType",
+    "engine": "InnoDB",
+    "field_order": [
+     "package_details_section",
+     "package_name",
+     "requires_confirmation",
+     "resource",
+     "section_break_qjmm",
+     "date_rules"
+    ],
+    "fields": [
+        {
+            "fieldname": "package_details_section",
+            "fieldtype": "Section Break",
+            "label": "Package Details"
+        },
+        {
+            "fieldname": "package_name",
+            "fieldtype": "Data",
+            "in_list_view": 1,
+            "label": "Package Name",
+            "reqd": 1
+        },
+        {
+            "default": "0",
+            "fieldname": "requires_confirmation",
+            "fieldtype": "Check",
+            "label": "Requires Confirmation"
+        },
+        {
+            "fieldname": "resource",
+            "fieldtype": "Link",
+            "in_list_view": 1,
+            "label": "Resource",
+            "options": "Resource",
+            "reqd": 1
+        },
+        {
+            "fieldname": "section_break_qjmm",
+            "fieldtype": "Section Break"
+        },
+        {
+            "fieldname": "date_rules",
+            "fieldtype": "Table",
+            "label": "Date Rules",
+            "options": "Date Rule"
+        }
+    ],
+    "grid_page_length": 50,
+    "index_web_pages_for_search": 1,
+    "links": [],
+    "modified": "2025-05-08 15:22:46.392224",
+    "modified_by": "Administrator",
+    "module": "CRM",
+    "name": "Slot",
+    "owner": "Administrator",
+    "permissions": [
+     {
+      "create": 1,
+      "delete": 1,
+      "email": 1,
+      "export": 1,
+      "print": 1,
+      "read": 1,
+      "report": 1,
+      "role": "System Manager",
+      "share": 1,
+      "write": 1
+     }
+    ],
+    "row_format": "Dynamic",
+    "sort_field": "creation",
+    "sort_order": "DESC",
+    "states": [],
+    "custom": 1
+   }
+   

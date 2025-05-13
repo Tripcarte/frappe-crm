@@ -1,4 +1,4 @@
-app_name = "cruise_crm"
+app_name = "crm"
 app_title = "CRM"
 app_publisher = "NetQuest Solutions Sdn Bhd"
 app_description = "CRM"
@@ -21,12 +21,31 @@ app_license = "mit"
 # 	}
 # ]
 
+# app_logo_url = "/assets/cruise_crm/images/app_logo.png"
+
+# fixtures = [
+#     # {"doctype": "Module Def", "filters": [["name", "=", "CRM Booking"]]},
+#     # {"doctype": "Workspace", "filters": [["name", "=", "CRM Booking Workspace"]]}
+# ]
+
+# fixtures = [
+#     # {"doctype": "Module Def", "filters": [["name", "=", "CRM Booking"]]},
+#     # {"doctype": "Workspace", "filters": [["name", "=", "CRM Booking Workspace"]]}
+# ]
+
+
 # Includes in <head>
 # ------------------
 
 # include js, css files in header of desk.html
 # app_include_css = "/assets/cruise_crm/css/cruise_crm.css"
 # app_include_js = "/assets/cruise_crm/js/cruise_crm.js"
+
+# app_include_js = "/assets/cruise_crm/js/booking.js"
+
+# app_include_js = [
+#     "/assets/crm/js/booking.js"
+# ]
 
 # include js, css files in header of web template
 # web_include_css = "/assets/cruise_crm/css/cruise_crm.css"
@@ -43,7 +62,12 @@ app_license = "mit"
 # page_js = {"page" : "public/js/file.js"}
 
 # include js in doctype views
-# doctype_js = {"doctype" : "public/js/doctype.js"}
+doctype_js = {"Booking" : "public/js/booking.js"}
+
+# doctype_js = {
+#     "Booking": "public/js/booking.js"
+# }
+
 # doctype_list_js = {"doctype" : "public/js/doctype_list.js"}
 # doctype_tree_js = {"doctype" : "public/js/doctype_tree.js"}
 # doctype_calendar_js = {"doctype" : "public/js/doctype_calendar.js"}
