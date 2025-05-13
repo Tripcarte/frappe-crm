@@ -62,12 +62,11 @@ doctype_js = {
     "Resource": "public/js/resource.js"
 }
 
-doctype_js = {
+doctype_list_js = {
     "Booking" : "public/js/booking_list.js",
     "Slot" : "public/js/slot_list.js",
     "Resource": "public/js/resource_list.js"
 }
-
 
 # doctype_js = {
 #     "Booking": "public/js/booking.js"
