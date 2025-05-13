@@ -1,0 +1,9 @@
+{
+  "doctype": "Page",
+  "name": "schedule",
+  "module": "CRM",
+  "title": "Schedule",
+  "content": null,
+  "icon": "octicon octicon-calendar",
+  "standard": "Yes"
+}
