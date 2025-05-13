@@ -21,18 +21,12 @@ app_license = "mit"
 # 	}
 # ]
 
-# app_logo_url = "/assets/cruise_crm/images/app_logo.png"
+app_logo_url = "/assets/cruise_crm/images/app_logo.png"
 
-# fixtures = [
-#     # {"doctype": "Module Def", "filters": [["name", "=", "CRM Booking"]]},
-#     # {"doctype": "Workspace", "filters": [["name", "=", "CRM Booking Workspace"]]}
-# ]
-
-# fixtures = [
-#     # {"doctype": "Module Def", "filters": [["name", "=", "CRM Booking"]]},
-#     # {"doctype": "Workspace", "filters": [["name", "=", "CRM Booking Workspace"]]}
-# ]
-
+fixtures = [
+    {"doctype": "Module Def", "filters": [["name", "=", "CRM"]]},
+    {"doctype": "Workspace", "filters": [["name", "=", "CRM Workspace"]]}
+]
 
 # Includes in <head>
 # ------------------
@@ -62,7 +56,10 @@ app_license = "mit"
 # page_js = {"page" : "public/js/file.js"}
 
 # include js in doctype views
-doctype_js = {"Booking" : "public/js/booking.js"}
+doctype_js = {
+    "Booking" : "public/js/booking.js",
+    "Slot" : "public/js/slot.js"
+}
 
 # doctype_js = {
 #     "Booking": "public/js/booking.js"

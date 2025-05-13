@@ -50,6 +50,7 @@
     "module": "CRM",
     "name": "Resource",
     "owner": "Administrator",
+    "title_field": "resource_name",
     "permissions": [
      {
       "create": 1,
@@ -68,6 +69,6 @@
     "sort_field": "creation",
     "sort_order": "DESC",
     "states": [],
-    "custom": 1
+    "custom": 0
    }
    

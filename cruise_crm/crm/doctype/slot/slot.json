@@ -58,6 +58,7 @@
     "module": "CRM",
     "name": "Slot",
     "owner": "Administrator",
+    "title_field": "package_name",
     "permissions": [
      {
       "create": 1,
@@ -76,6 +77,6 @@
     "sort_field": "creation",
     "sort_order": "DESC",
     "states": [],
-    "custom": 1
+    "custom": 0
    }
    

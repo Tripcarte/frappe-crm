@@ -104,6 +104,7 @@
     "module": "CRM",
     "name": "Booking",
     "owner": "Administrator",
+    "title_field": "booking_name",
     "permissions": [
      {
       "create": 1,
