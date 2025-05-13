@@ -6,7 +6,7 @@
     "field_order": [
      "booking_details_section",
      "booking_date",
-     "slot",
+     "package",
      "status",
      "column_break_uvot",
      "booking_name",
@@ -39,11 +39,11 @@
       "reqd": 1
      },
      {
-      "fieldname": "slot",
+      "fieldname": "package",
       "fieldtype": "Link",
       "in_list_view": 1,
-      "label": "Slot",
-      "options": "Slot",
+      "label": "Package",
+      "options": "Package",
       "reqd": 1
      },
      {

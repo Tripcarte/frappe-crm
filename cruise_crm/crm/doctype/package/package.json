@@ -55,7 +55,7 @@
     "modified": "2025-05-08 15:22:46.392224",
     "modified_by": "Administrator",
     "module": "CRM",
-    "name": "Slot",
+    "name": "Package",
     "owner": "Administrator",
     "title_field": "package_name",
     "show_title_field_in_link": 1,
