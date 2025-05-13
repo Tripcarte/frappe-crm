@@ -35,7 +35,3 @@ frappe.ui.form.on('Booking', {
         frm.refresh_field('participants');
     }
 });
-
-frappe.listview_settings['Booking'] = {
-    hide_name_column: true
-};
