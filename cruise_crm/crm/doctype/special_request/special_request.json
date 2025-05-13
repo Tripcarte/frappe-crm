@@ -1,10 +1,9 @@
 {
     "actions": [],
-    "allow_rename": 1,
+    "allow_rename": 0,
     "creation": "2025-05-08 15:49:50.216069",
     "doctype": "DocType",
     "editable_grid": 1,
-    "engine": "InnoDB",
     "field_order": [
      "message"
     ],

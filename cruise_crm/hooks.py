@@ -58,7 +58,8 @@ fixtures = [
 # include js in doctype views
 doctype_js = {
     "Booking" : "public/js/booking.js",
-    "Slot" : "public/js/slot.js"
+    "Slot" : "public/js/slot.js",
+    "Resource": "public/js/resource.js"
 }
 
 # doctype_js = {

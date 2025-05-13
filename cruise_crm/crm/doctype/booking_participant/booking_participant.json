@@ -31,7 +31,9 @@
         {
          "fieldname": "participant_number",
          "fieldtype": "Data",
-         "label": "IC / Passport No"
+         "label": "IC / Passport No",
+         "in_list_view": 1,
+         "reqd": 1
         },
         {
          "fieldname": "nationality",

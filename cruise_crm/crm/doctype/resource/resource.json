@@ -1,9 +1,8 @@
 {
     "actions": [],
-    "allow_rename": 1,
+    "allow_rename": 0,
     "creation": "2025-05-08 15:07:48.430657",
     "doctype": "DocType",
-    "engine": "InnoDB",
     "field_order": [
      "resource_details_section",
      "resource_name",
@@ -29,7 +28,8 @@
       "fieldtype": "Int",
       "label": "Capacity",
       "non_negative": 1,
-      "reqd": 1
+      "reqd": 1,
+      "in_list_view": 1
      },
      {
       "fieldname": "section_break_qjmm",
@@ -51,6 +51,7 @@
     "name": "Resource",
     "owner": "Administrator",
     "title_field": "resource_name",
+    "show_title_field_in_link": 1,
     "permissions": [
      {
       "create": 1,
