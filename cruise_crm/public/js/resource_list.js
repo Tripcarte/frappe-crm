@@ -1,3 +1,3 @@
-frappe.listview_settings['Resource'] = {
-    hide_name_column: true
+frappe.listview_settings.Resource = {
+	hide_name_column: true,
 };
