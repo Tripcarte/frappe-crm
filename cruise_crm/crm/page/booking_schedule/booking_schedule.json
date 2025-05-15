@@ -1,4 +1,5 @@
 {
+  "doctype": "Page",
   "title": "Grouped Booking List",
   "name": "booking-schedule",
   "module": "EasyTix Booking",
