@@ -2,7 +2,7 @@
   "doctype": "Page",
   "title": "Grouped Booking List",
   "name": "booking-schedule",
-  "module": "EasyTix Booking",
+  "module": "CRM",
   "extends": "Standard",
   "icon": "octicon octicon-list-unordered",
   "roles": [],
