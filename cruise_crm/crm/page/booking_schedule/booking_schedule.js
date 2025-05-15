@@ -9,7 +9,7 @@ frappe.pages['booking-schedule'].on_page_load= function(wrapper) {
             method: 'frappe.client.get_list',
             args: {
                 doctype: 'Booking',
-                fields: ['name', 'status', 'resource', 'booking_date'],
+                fields: ['name', 'status', 'package', 'booking_date'],
                 limit_page_length: 1000
             },
             callback: function(response) {
@@ -17,7 +17,7 @@ frappe.pages['booking-schedule'].on_page_load= function(wrapper) {
                 const grouped = {};
 
                 bookings.forEach(b => {
-                    const key = b.status || 'No Status';
+                    const key = b.package || 'No Package';
                     if (!grouped[key]) grouped[key] = [];
                     grouped[key].push(b);
                 });
@@ -28,7 +28,7 @@ frappe.pages['booking-schedule'].on_page_load= function(wrapper) {
                     container.append(`<h4>${status}</h4><ul class="list-disc ml-4 mb-4"></ul>`);
                     const list = container.find('ul').last();
                     grouped[status].forEach(b => {
-                        list.append(`<li><a href="/app/booking/${b.name}">${b.name}</a> — ${b.resource} (${b.booking_date})</li>`);
+                        list.append(`<li><a href="/app/booking/${b.name}">${b.name}</a> — ${b.package} (${b.booking_date})</li>`);
                     });
                 }
             }
