@@ -25,8 +25,7 @@ app_logo_url = "/assets/cruise_crm/images/app_logo.png"
 
 fixtures = [
     {"doctype": "Module Def", "filters": [["name", "=", "CRM"]]},
-    {"doctype": "Workspace", "filters": [["name", "=", "CRM Workspace"]]},
-    {"doctype": "Page", "filters": [["name", "in", ['booking-schedule']]]}
+    {"doctype": "Workspace", "filters": [["name", "=", "CRM Workspace"]]}
 ]
 
 # Includes in <head>
