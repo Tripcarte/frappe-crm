@@ -1,0 +1,12 @@
+{
+  "title": "Grouped Booking List",
+  "name": "booking_schedule",
+  "module": "EasyTix Booking",
+  "extends": "Standard",
+  "icon": "octicon octicon-list-unordered",
+  "roles": [],
+  "script": null,
+  "standard": "Yes",
+  "style": null,
+  "system_page": 1
+}
