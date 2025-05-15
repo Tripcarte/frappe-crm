@@ -1,6 +1,6 @@
 {
   "title": "Grouped Booking List",
-  "name": "booking_schedule",
+  "name": "booking-schedule",
   "module": "EasyTix Booking",
   "extends": "Standard",
   "icon": "octicon octicon-list-unordered",

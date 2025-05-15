@@ -1,4 +1,4 @@
-frappe.pages['grouped-booking-booking_schedule'].on_page_load= function(wrapper) {
+frappe.pages['booking-schedule'].on_page_load= function(wrapper) {
         let page = frappe.ui.make_app_page({
             parent: wrapper,
             title: 'Booking Schedule',

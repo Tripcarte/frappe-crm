@@ -1,0 +1,19 @@
+[
+ {
+  "content": null,
+  "docstatus": 0,
+  "doctype": "Page",
+  "icon": null,
+  "modified": "2025-05-14 10:46:05.373868",
+  "module": "EasyTix Booking",
+  "name": "booking-schedule",
+  "page_name": "booking-schedule",
+  "restrict_to_domain": null,
+  "roles": [],
+  "script": null,
+  "standard": "Yes",
+  "style": null,
+  "system_page": 1,
+  "title": "Booking Schedule"
+ }
+]
